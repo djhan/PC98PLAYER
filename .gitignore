@@ -21,6 +21,12 @@ Release/
 # tools\fetch_ymfm.cmd で取ってくる ymfm（BSD 3-Clause。同梱しない）
 third_party/ymfm/
 
+# Xcode（mac/ のプロジェクトは xcodegen 生成。ユーザー個別の状態は上げない）
+mac/PC98PlayerMac.xcodeproj/xcuserdata/
+*.xcuserstate
+*.xcresult
+mac/Info.plist
+
 # 検証用ハーネスの出力
 tools/harness
 *.ppm

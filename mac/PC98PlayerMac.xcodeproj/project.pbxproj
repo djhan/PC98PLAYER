@@ -1,0 +1,650 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00F56D2EEAFBC355BE868EDA /* debugdump.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 802C3B586200F8C615977659 /* debugdump.cpp */; };
+		1073DFDE6B5BD4F6FA00DDE3 /* PC98App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B91A240904C33677CE8F8A /* PC98App.swift */; };
+		17EE19C17C23D575B14270FF /* avgdrv.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 492130808321AF3A0ED51304 /* avgdrv.cpp */; };
+		32DDA13FF968F8F5D074FF4B /* cdda.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F35880D3D1DF7D760870722 /* cdda.cpp */; };
+		3F9ADBF4218C593F38AAB3FD /* player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84055F4FD7ED14B4224C9ADB /* player.cpp */; };
+		4D1B724C308A902FF471258C /* PC98BridgeSmokeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5D34C9468F6FEE22AB0D6C /* PC98BridgeSmokeTests.swift */; };
+		537CAFF1BC874A81D1C43972 /* ymfm_opn.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7B5CB10B1F008986C865B7EA /* ymfm_opn.cpp */; };
+		5C5CDCA22B23F15E820396D9 /* fdc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4299CDE4DD78890E0D767CA5 /* fdc.cpp */; };
+		5DF3C05613DA0800FF1534F6 /* hdimage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3ADDF9C88EF5BD8CE35C4DCB /* hdimage.cpp */; };
+		62A805556DD8FAAEAF4C895E /* isofs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 61F42F42FB6437D633240218 /* isofs.cpp */; };
+		6A054C438FFD5B30DCF42B37 /* fontrom.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 446EAED0DEEE9398C082EAFF /* fontrom.cpp */; };
+		6B27877C2048CB7E6EDC3E7B /* pegc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C08DB51CF37D124FA4464FC2 /* pegc.cpp */; };
+		799E3DB7ED6EEA1DEAA7B6F5 /* video.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9347B8900A44699B6E0D7AC4 /* video.cpp */; };
+		822112A40DDE45BD95292AEF /* fdreal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24EF7F3840B043697133EB29 /* fdreal.cpp */; };
+		866F092CE259A2C23C9DB701 /* hostfs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0EBDBFC8BFAA983848965DB6 /* hostfs.cpp */; };
+		8798E105782EBACD4B8AC5FE /* floppy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BADF8A415733F35ECE239A81 /* floppy.cpp */; };
+		8FDDF2579804F1F08CD3A719 /* xmsems.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D89AE97597621A94877FF477 /* xmsems.cpp */; };
+		946AE94995F69D4F5491AC9B /* egc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02C52D3E054D8E08646FD100 /* egc.cpp */; };
+		97C830AC1DCFAA53E25516D3 /* bios.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04EB2FACBC979FAC2849007A /* bios.cpp */; };
+		A9C512B40DC6F76F0AA1642F /* machine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A99E924E7AF9815AFB5F7199 /* machine.cpp */; };
+		B60F6416A955F95ABDECDEC3 /* fdflux.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B9FD0B69D00751C0E107D3A7 /* fdflux.cpp */; };
+		B71BA6E5D821E260924CA826 /* PC98Bridge.mm in Sources */ = {isa = PBXBuildFile; fileRef = 43F3439ED8D4EDD03EF3F636 /* PC98Bridge.mm */; };
+		B7C7AC729BA88F0AE064C5D8 /* cdvirt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E8C82936C78B7C498F7F906D /* cdvirt.cpp */; };
+		C207740F64A76B4A8FB65952 /* lio.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CCF248968F261FB7874721E4 /* lio.cpp */; };
+		C4952768A614D0279CF29B8E /* rhythm_rom.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC01C94DCDD607C5E9577865 /* rhythm_rom.cpp */; };
+		C603F3E5AB16BDFA9F6BA061 /* fatfs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7820AECDEF3B2E79B4C27C47 /* fatfs.cpp */; };
+		C7B2605E0994F2097C5DE605 /* ymfm_ssg.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3653182CDD11E6FF02A0DE4 /* ymfm_ssg.cpp */; };
+		CF67DF8D5BA1895747081C91 /* cpu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 34D074EE5DF60612316C70DA /* cpu.cpp */; };
+		D91FA50EC0659427CA71AE03 /* scsicd.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3974DD7676D6A50FD741E9CB /* scsicd.cpp */; };
+		DC09E47422D88133C82F23A3 /* ymfm_adpcm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6244C048B7E184454F268DB3 /* ymfm_adpcm.cpp */; };
+		E018A51EFEE86D1B0E0C2802 /* dos.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 12C8A791BE49B9F5D44BCC35 /* dos.cpp */; };
+		E169EC6EFE9B8FF4F030FF06 /* avsdrv.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 38E8D9E5AEB888B256414591 /* avsdrv.cpp */; };
+		E43C0D0A94E4694177C5E3EF /* MainWindowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE52C8EC7EA9C3C0A9CA8EA2 /* MainWindowView.swift */; };
+		ED58363350B885D7F03970B7 /* gdcdraw.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 21FA63F39471E14400A94EFD /* gdcdraw.cpp */; };
+		F1BA526AA11D53A2FBB5B72D /* avsfm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C48F11F21F3905B0277191F0 /* avsfm.cpp */; };
+		F1D5EA499D5DCFE45E4F183B /* opna_renderer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0E5CDD682295B06945F8B063 /* opna_renderer.cpp */; };
+		F9812613CC0BB7AEE5AA6959 /* pcm86.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5B1010EC1C66DD9201B75B0 /* pcm86.cpp */; };
+		FE064CC2192D04BB8D4E22B8 /* soundbios.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5E6C30340871268C2C3BCBB6 /* soundbios.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2FA35D27B850FF621E9146AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E61870E7856120E0B5B1E88C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0D3E82D013C27EA2009C921C;
+			remoteInfo = PC98PlayerMac;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02C52D3E054D8E08646FD100 /* egc.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = egc.cpp; sourceTree = "<group>"; };
+		04EB2FACBC979FAC2849007A /* bios.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = bios.cpp; sourceTree = "<group>"; };
+		0B58B7EB8FBC4D0DD12EF068 /* pegc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pegc.h; sourceTree = "<group>"; };
+		0E5CDD682295B06945F8B063 /* opna_renderer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = opna_renderer.cpp; sourceTree = "<group>"; };
+		0EBDBFC8BFAA983848965DB6 /* hostfs.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = hostfs.cpp; sourceTree = "<group>"; };
+		12C8A791BE49B9F5D44BCC35 /* dos.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = dos.cpp; sourceTree = "<group>"; };
+		15DF6CBB201199035914D319 /* hostfs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hostfs.h; sourceTree = "<group>"; };
+		1CC3C322333889BE8F81FCB2 /* PC98PlayerMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PC98PlayerMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		21FA63F39471E14400A94EFD /* gdcdraw.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = gdcdraw.cpp; sourceTree = "<group>"; };
+		24EF7F3840B043697133EB29 /* fdreal.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = fdreal.cpp; sourceTree = "<group>"; };
+		26CBA6FEF0386E9A5AB7F0D8 /* memio.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = memio.h; sourceTree = "<group>"; };
+		2D454327EBE0B6AA5A57EDD4 /* PC98PlayerMac-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PC98PlayerMac-Bridging-Header.h"; sourceTree = "<group>"; };
+		3142A2CB9F7B2C6E1B9858D0 /* state.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = state.h; sourceTree = "<group>"; };
+		34D074EE5DF60612316C70DA /* cpu.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = cpu.cpp; sourceTree = "<group>"; };
+		38E8D9E5AEB888B256414591 /* avsdrv.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = avsdrv.cpp; sourceTree = "<group>"; };
+		3974DD7676D6A50FD741E9CB /* scsicd.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = scsicd.cpp; sourceTree = "<group>"; };
+		3ADDF9C88EF5BD8CE35C4DCB /* hdimage.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = hdimage.cpp; sourceTree = "<group>"; };
+		3E4AAF92244D2B68287D9340 /* PC98PlayerMacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PC98PlayerMacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		41BE53165C37D0747F4179AF /* boxtable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = boxtable.h; sourceTree = "<group>"; };
+		4299CDE4DD78890E0D767CA5 /* fdc.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = fdc.cpp; sourceTree = "<group>"; };
+		42B91A240904C33677CE8F8A /* PC98App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PC98App.swift; sourceTree = "<group>"; };
+		43F3439ED8D4EDD03EF3F636 /* PC98Bridge.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = PC98Bridge.mm; sourceTree = "<group>"; };
+		446EAED0DEEE9398C082EAFF /* fontrom.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = fontrom.cpp; sourceTree = "<group>"; };
+		492130808321AF3A0ED51304 /* avgdrv.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = avgdrv.cpp; sourceTree = "<group>"; };
+		51D59A7F9E4A0AAAF1BA2D5C /* cpu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cpu.h; sourceTree = "<group>"; };
+		56EAB8C640BC6DEF0581B51B /* machine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = machine.h; sourceTree = "<group>"; };
+		59F22C35E36CB3DFAB182398 /* hdimage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hdimage.h; sourceTree = "<group>"; };
+		5E6C30340871268C2C3BCBB6 /* soundbios.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = soundbios.cpp; sourceTree = "<group>"; };
+		61F42F42FB6437D633240218 /* isofs.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = isofs.cpp; sourceTree = "<group>"; };
+		6244C048B7E184454F268DB3 /* ymfm_adpcm.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ymfm_adpcm.cpp; sourceTree = "<group>"; };
+		62994AEF53B17F0404776EE3 /* isofs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = isofs.h; sourceTree = "<group>"; };
+		6F35880D3D1DF7D760870722 /* cdda.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = cdda.cpp; sourceTree = "<group>"; };
+		742963ADF8085D40116F7C3F /* floppy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = floppy.h; sourceTree = "<group>"; };
+		75E053CA85D76AAE7AA252DF /* cdvirt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cdvirt.h; sourceTree = "<group>"; };
+		7820AECDEF3B2E79B4C27C47 /* fatfs.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = fatfs.cpp; sourceTree = "<group>"; };
+		7B5CB10B1F008986C865B7EA /* ymfm_opn.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ymfm_opn.cpp; sourceTree = "<group>"; };
+		7D5D34C9468F6FEE22AB0D6C /* PC98BridgeSmokeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PC98BridgeSmokeTests.swift; sourceTree = "<group>"; };
+		7D61B827D9D1391F10841E92 /* rhythm_rom.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = rhythm_rom.h; sourceTree = "<group>"; };
+		802C3B586200F8C615977659 /* debugdump.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = debugdump.cpp; sourceTree = "<group>"; };
+		84055F4FD7ED14B4224C9ADB /* player.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = player.cpp; sourceTree = "<group>"; };
+		9347B8900A44699B6E0D7AC4 /* video.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = video.cpp; sourceTree = "<group>"; };
+		A99E924E7AF9815AFB5F7199 /* machine.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = machine.cpp; sourceTree = "<group>"; };
+		ADFCD2A7863945BFDA54DAD4 /* fdreal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fdreal.h; sourceTree = "<group>"; };
+		AE52C8EC7EA9C3C0A9CA8EA2 /* MainWindowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainWindowView.swift; sourceTree = "<group>"; };
+		B3653182CDD11E6FF02A0DE4 /* ymfm_ssg.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ymfm_ssg.cpp; sourceTree = "<group>"; };
+		B9FD0B69D00751C0E107D3A7 /* fdflux.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = fdflux.cpp; sourceTree = "<group>"; };
+		BADF8A415733F35ECE239A81 /* floppy.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = floppy.cpp; sourceTree = "<group>"; };
+		BDF5A8266D762A0E7A0620CB /* debugdump.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = debugdump.h; sourceTree = "<group>"; };
+		C08DB51CF37D124FA4464FC2 /* pegc.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = pegc.cpp; sourceTree = "<group>"; };
+		C48F11F21F3905B0277191F0 /* avsfm.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = avsfm.cpp; sourceTree = "<group>"; };
+		CCF248968F261FB7874721E4 /* lio.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = lio.cpp; sourceTree = "<group>"; };
+		D5B1010EC1C66DD9201B75B0 /* pcm86.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = pcm86.cpp; sourceTree = "<group>"; };
+		D63E221687E051BE81625CD1 /* opna_renderer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = opna_renderer.h; sourceTree = "<group>"; };
+		D89AE97597621A94877FF477 /* xmsems.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = xmsems.cpp; sourceTree = "<group>"; };
+		E6259AAA0DA76533C7F4BDB6 /* player.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = player.h; sourceTree = "<group>"; };
+		E8C82936C78B7C498F7F906D /* cdvirt.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = cdvirt.cpp; sourceTree = "<group>"; };
+		EC01C94DCDD607C5E9577865 /* rhythm_rom.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = rhythm_rom.cpp; sourceTree = "<group>"; };
+		F4E6F796B6E53DE558E62B3B /* cdda.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cdda.h; sourceTree = "<group>"; };
+		FDDC9DE1E4BFF360594B6B8E /* PC98Bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PC98Bridge.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		13F993A05A0258A133784F7A /* PC98PLAYER */ = {
+			isa = PBXGroup;
+			children = (
+				A0EDD4C6991936AAA325D22D /* core */,
+				4E7F58E86D5202F68F68DA17 /* third_party */,
+			);
+			name = PC98PLAYER;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		229773CD4FA1ED1031DFCB28 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1CC3C322333889BE8F81FCB2 /* PC98PlayerMac.app */,
+				3E4AAF92244D2B68287D9340 /* PC98PlayerMacTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3E5BDF64B51741760899C11E /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				AE52C8EC7EA9C3C0A9CA8EA2 /* MainWindowView.swift */,
+				42B91A240904C33677CE8F8A /* PC98App.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		44CEDB7BB903B0E9E3D8BCF7 /* ymfm */ = {
+			isa = PBXGroup;
+			children = (
+				AA60008B7D0CEB264DB42F10 /* src */,
+			);
+			path = ymfm;
+			sourceTree = "<group>";
+		};
+		4E7F58E86D5202F68F68DA17 /* third_party */ = {
+			isa = PBXGroup;
+			children = (
+				44CEDB7BB903B0E9E3D8BCF7 /* ymfm */,
+			);
+			path = third_party;
+			sourceTree = "<group>";
+		};
+		5F34458E26AC1A8FEB4E0BD6 /* TestsSwift */ = {
+			isa = PBXGroup;
+			children = (
+				7D5D34C9468F6FEE22AB0D6C /* PC98BridgeSmokeTests.swift */,
+			);
+			path = TestsSwift;
+			sourceTree = "<group>";
+		};
+		A04A84A6D0A7B5181C6A05EA = {
+			isa = PBXGroup;
+			children = (
+				D4A4CB275112335FCC3EF73C /* Bridge */,
+				13F993A05A0258A133784F7A /* PC98PLAYER */,
+				5F34458E26AC1A8FEB4E0BD6 /* TestsSwift */,
+				3E5BDF64B51741760899C11E /* UI */,
+				229773CD4FA1ED1031DFCB28 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A0EDD4C6991936AAA325D22D /* core */ = {
+			isa = PBXGroup;
+			children = (
+				492130808321AF3A0ED51304 /* avgdrv.cpp */,
+				38E8D9E5AEB888B256414591 /* avsdrv.cpp */,
+				C48F11F21F3905B0277191F0 /* avsfm.cpp */,
+				04EB2FACBC979FAC2849007A /* bios.cpp */,
+				41BE53165C37D0747F4179AF /* boxtable.h */,
+				6F35880D3D1DF7D760870722 /* cdda.cpp */,
+				F4E6F796B6E53DE558E62B3B /* cdda.h */,
+				E8C82936C78B7C498F7F906D /* cdvirt.cpp */,
+				75E053CA85D76AAE7AA252DF /* cdvirt.h */,
+				34D074EE5DF60612316C70DA /* cpu.cpp */,
+				51D59A7F9E4A0AAAF1BA2D5C /* cpu.h */,
+				802C3B586200F8C615977659 /* debugdump.cpp */,
+				BDF5A8266D762A0E7A0620CB /* debugdump.h */,
+				12C8A791BE49B9F5D44BCC35 /* dos.cpp */,
+				02C52D3E054D8E08646FD100 /* egc.cpp */,
+				7820AECDEF3B2E79B4C27C47 /* fatfs.cpp */,
+				4299CDE4DD78890E0D767CA5 /* fdc.cpp */,
+				B9FD0B69D00751C0E107D3A7 /* fdflux.cpp */,
+				24EF7F3840B043697133EB29 /* fdreal.cpp */,
+				ADFCD2A7863945BFDA54DAD4 /* fdreal.h */,
+				BADF8A415733F35ECE239A81 /* floppy.cpp */,
+				742963ADF8085D40116F7C3F /* floppy.h */,
+				446EAED0DEEE9398C082EAFF /* fontrom.cpp */,
+				21FA63F39471E14400A94EFD /* gdcdraw.cpp */,
+				3ADDF9C88EF5BD8CE35C4DCB /* hdimage.cpp */,
+				59F22C35E36CB3DFAB182398 /* hdimage.h */,
+				0EBDBFC8BFAA983848965DB6 /* hostfs.cpp */,
+				15DF6CBB201199035914D319 /* hostfs.h */,
+				61F42F42FB6437D633240218 /* isofs.cpp */,
+				62994AEF53B17F0404776EE3 /* isofs.h */,
+				CCF248968F261FB7874721E4 /* lio.cpp */,
+				A99E924E7AF9815AFB5F7199 /* machine.cpp */,
+				56EAB8C640BC6DEF0581B51B /* machine.h */,
+				26CBA6FEF0386E9A5AB7F0D8 /* memio.h */,
+				0E5CDD682295B06945F8B063 /* opna_renderer.cpp */,
+				D63E221687E051BE81625CD1 /* opna_renderer.h */,
+				D5B1010EC1C66DD9201B75B0 /* pcm86.cpp */,
+				C08DB51CF37D124FA4464FC2 /* pegc.cpp */,
+				0B58B7EB8FBC4D0DD12EF068 /* pegc.h */,
+				84055F4FD7ED14B4224C9ADB /* player.cpp */,
+				E6259AAA0DA76533C7F4BDB6 /* player.h */,
+				EC01C94DCDD607C5E9577865 /* rhythm_rom.cpp */,
+				7D61B827D9D1391F10841E92 /* rhythm_rom.h */,
+				3974DD7676D6A50FD741E9CB /* scsicd.cpp */,
+				5E6C30340871268C2C3BCBB6 /* soundbios.cpp */,
+				3142A2CB9F7B2C6E1B9858D0 /* state.h */,
+				9347B8900A44699B6E0D7AC4 /* video.cpp */,
+				D89AE97597621A94877FF477 /* xmsems.cpp */,
+			);
+			path = core;
+			sourceTree = "<group>";
+		};
+		AA60008B7D0CEB264DB42F10 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				6244C048B7E184454F268DB3 /* ymfm_adpcm.cpp */,
+				7B5CB10B1F008986C865B7EA /* ymfm_opn.cpp */,
+				B3653182CDD11E6FF02A0DE4 /* ymfm_ssg.cpp */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		D4A4CB275112335FCC3EF73C /* Bridge */ = {
+			isa = PBXGroup;
+			children = (
+				FDDC9DE1E4BFF360594B6B8E /* PC98Bridge.h */,
+				43F3439ED8D4EDD03EF3F636 /* PC98Bridge.mm */,
+				2D454327EBE0B6AA5A57EDD4 /* PC98PlayerMac-Bridging-Header.h */,
+			);
+			path = Bridge;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0D3E82D013C27EA2009C921C /* PC98PlayerMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FF70A4CF657BE7F534D8F99 /* Build configuration list for PBXNativeTarget "PC98PlayerMac" */;
+			buildPhases = (
+				D71449B143EE86DEFB8DFF25 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PC98PlayerMac;
+			packageProductDependencies = (
+			);
+			productName = PC98PlayerMac;
+			productReference = 1CC3C322333889BE8F81FCB2 /* PC98PlayerMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EB3170DA51C707E1CF5B0F68 /* PC98PlayerMacTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD2A33B373AFDB37AA7DDD2C /* Build configuration list for PBXNativeTarget "PC98PlayerMacTests" */;
+			buildPhases = (
+				BFD2CAE7D16ADC9B35FA50D7 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				268C94886F2E4D74A06A597D /* PBXTargetDependency */,
+			);
+			name = PC98PlayerMacTests;
+			packageProductDependencies = (
+			);
+			productName = PC98PlayerMacTests;
+			productReference = 3E4AAF92244D2B68287D9340 /* PC98PlayerMacTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E61870E7856120E0B5B1E88C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					0D3E82D013C27EA2009C921C = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Manual;
+					};
+					EB3170DA51C707E1CF5B0F68 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 91A0C56360E708E2BDF66B49 /* Build configuration list for PBXProject "PC98PlayerMac" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = A04A84A6D0A7B5181C6A05EA;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 229773CD4FA1ED1031DFCB28 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0D3E82D013C27EA2009C921C /* PC98PlayerMac */,
+				EB3170DA51C707E1CF5B0F68 /* PC98PlayerMacTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFD2CAE7D16ADC9B35FA50D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D1B724C308A902FF471258C /* PC98BridgeSmokeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D71449B143EE86DEFB8DFF25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E43C0D0A94E4694177C5E3EF /* MainWindowView.swift in Sources */,
+				1073DFDE6B5BD4F6FA00DDE3 /* PC98App.swift in Sources */,
+				B71BA6E5D821E260924CA826 /* PC98Bridge.mm in Sources */,
+				17EE19C17C23D575B14270FF /* avgdrv.cpp in Sources */,
+				E169EC6EFE9B8FF4F030FF06 /* avsdrv.cpp in Sources */,
+				F1BA526AA11D53A2FBB5B72D /* avsfm.cpp in Sources */,
+				97C830AC1DCFAA53E25516D3 /* bios.cpp in Sources */,
+				32DDA13FF968F8F5D074FF4B /* cdda.cpp in Sources */,
+				B7C7AC729BA88F0AE064C5D8 /* cdvirt.cpp in Sources */,
+				CF67DF8D5BA1895747081C91 /* cpu.cpp in Sources */,
+				00F56D2EEAFBC355BE868EDA /* debugdump.cpp in Sources */,
+				E018A51EFEE86D1B0E0C2802 /* dos.cpp in Sources */,
+				946AE94995F69D4F5491AC9B /* egc.cpp in Sources */,
+				C603F3E5AB16BDFA9F6BA061 /* fatfs.cpp in Sources */,
+				5C5CDCA22B23F15E820396D9 /* fdc.cpp in Sources */,
+				B60F6416A955F95ABDECDEC3 /* fdflux.cpp in Sources */,
+				822112A40DDE45BD95292AEF /* fdreal.cpp in Sources */,
+				8798E105782EBACD4B8AC5FE /* floppy.cpp in Sources */,
+				6A054C438FFD5B30DCF42B37 /* fontrom.cpp in Sources */,
+				ED58363350B885D7F03970B7 /* gdcdraw.cpp in Sources */,
+				5DF3C05613DA0800FF1534F6 /* hdimage.cpp in Sources */,
+				866F092CE259A2C23C9DB701 /* hostfs.cpp in Sources */,
+				62A805556DD8FAAEAF4C895E /* isofs.cpp in Sources */,
+				C207740F64A76B4A8FB65952 /* lio.cpp in Sources */,
+				A9C512B40DC6F76F0AA1642F /* machine.cpp in Sources */,
+				F1D5EA499D5DCFE45E4F183B /* opna_renderer.cpp in Sources */,
+				F9812613CC0BB7AEE5AA6959 /* pcm86.cpp in Sources */,
+				6B27877C2048CB7E6EDC3E7B /* pegc.cpp in Sources */,
+				3F9ADBF4218C593F38AAB3FD /* player.cpp in Sources */,
+				C4952768A614D0279CF29B8E /* rhythm_rom.cpp in Sources */,
+				D91FA50EC0659427CA71AE03 /* scsicd.cpp in Sources */,
+				FE064CC2192D04BB8D4E22B8 /* soundbios.cpp in Sources */,
+				799E3DB7ED6EEA1DEAA7B6F5 /* video.cpp in Sources */,
+				8FDDF2579804F1F08CD3A719 /* xmsems.cpp in Sources */,
+				DC09E47422D88133C82F23A3 /* ymfm_adpcm.cpp in Sources */,
+				537CAFF1BC874A81D1C43972 /* ymfm_opn.cpp in Sources */,
+				C7B2605E0994F2097C5DE605 /* ymfm_ssg.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		268C94886F2E4D74A06A597D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0D3E82D013C27EA2009C921C /* PC98PlayerMac */;
+			targetProxy = 2FA35D27B850FF621E9146AA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0D6B07457006407FCAAF05CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		9BA0F44A7D1057C96834E819 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = gmpv3.PC98PlayerMacTests;
+				SDKROOT = macosx;
+				SWIFT_OBJC_BRIDGING_HEADER = "Bridge/PC98PlayerMac-Bridging-Header.h";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PC98PlayerMac.app/Contents/MacOS/PC98PlayerMac";
+			};
+			name = Debug;
+		};
+		AC648E4D77DAD04FEBE6D76F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					GMPV3_WITH_YMFM,
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/../core",
+					"$(SRCROOT)/../third_party/ymfm/src",
+				);
+				INFOPLIST_FILE = Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				OTHER_LDFLAGS = (
+					"-liconv",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = gmpv3.PC98PlayerMac;
+				SDKROOT = macosx;
+				SWIFT_OBJC_BRIDGING_HEADER = "Bridge/PC98PlayerMac-Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		BA29F690026F132A0E70F3ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		F1048457E0FDB4DD3CA9E8D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = gmpv3.PC98PlayerMacTests;
+				SDKROOT = macosx;
+				SWIFT_OBJC_BRIDGING_HEADER = "Bridge/PC98PlayerMac-Bridging-Header.h";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PC98PlayerMac.app/Contents/MacOS/PC98PlayerMac";
+			};
+			name = Release;
+		};
+		FBC74DF823CB74312F9282C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					GMPV3_WITH_YMFM,
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/../core",
+					"$(SRCROOT)/../third_party/ymfm/src",
+				);
+				INFOPLIST_FILE = Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				OTHER_LDFLAGS = (
+					"-liconv",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = gmpv3.PC98PlayerMac;
+				SDKROOT = macosx;
+				SWIFT_OBJC_BRIDGING_HEADER = "Bridge/PC98PlayerMac-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5FF70A4CF657BE7F534D8F99 /* Build configuration list for PBXNativeTarget "PC98PlayerMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC648E4D77DAD04FEBE6D76F /* Debug */,
+				FBC74DF823CB74312F9282C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		91A0C56360E708E2BDF66B49 /* Build configuration list for PBXProject "PC98PlayerMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D6B07457006407FCAAF05CD /* Debug */,
+				BA29F690026F132A0E70F3ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		CD2A33B373AFDB37AA7DDD2C /* Build configuration list for PBXNativeTarget "PC98PlayerMacTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BA0F44A7D1057C96834E819 /* Debug */,
+				F1048457E0FDB4DD3CA9E8D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E61870E7856120E0B5B1E88C /* Project object */;
+}

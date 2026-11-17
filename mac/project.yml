@@ -1,0 +1,78 @@
+# PC98PLAYER macOS (SwiftUI) — xcodegen 프로젝트 정의
+# 생성: mac/ 디렉토리에서 "xcodegen generate".
+# third_party/ymfm 은 먼저 tools/fetch_ymfm.sh 로 받아둘 것 (gitignored).
+name: PC98PlayerMac
+options:
+  bundleIdPrefix: gmpv3
+  createIntermediateGroups: true
+  deploymentTarget:
+    macOS: "14.0"
+settings:
+  base:
+    SWIFT_VERSION: "5.0"
+    CLANG_CXX_LANGUAGE_STANDARD: c++17
+    CLANG_ENABLE_MODULES: YES
+    # 로컬 빌드용 ad-hoc 서명 (개발자 계정 불필요)
+    CODE_SIGN_STYLE: Manual
+    CODE_SIGN_IDENTITY: "-"
+    DEVELOPMENT_TEAM: ""
+targets:
+  PC98PlayerMac:
+    type: application
+    platform: macOS
+    sources:
+      - path: UI
+      - path: Bridge
+      - path: ../core
+      - path: ../third_party/ymfm/src
+        includes:
+          - "ymfm_opn.cpp"
+          - "ymfm_adpcm.cpp"
+          - "ymfm_ssg.cpp"
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: gmpv3.PC98PlayerMac
+        GCC_PREPROCESSOR_DEFINITIONS:
+          - GMPV3_WITH_YMFM
+        HEADER_SEARCH_PATHS:
+          - "$(SRCROOT)/../core"
+          - "$(SRCROOT)/../third_party/ymfm/src"
+        SWIFT_OBJC_BRIDGING_HEADER: Bridge/PC98PlayerMac-Bridging-Header.h
+        OTHER_LDFLAGS:
+          - "-liconv"
+        MACOSX_DEPLOYMENT_TARGET: "14.0"
+    info:
+      path: Info.plist
+      properties:
+        CFBundleName: PC98PLAYER
+        CFBundleDisplayName: PC98PLAYER
+        NSHighResolutionCapable: true
+        NSPrincipalClass: NSApplication
+        LSApplicationCategoryType: public.app-category.games
+        NSHumanReadableCopyright: "Released under the MIT License"
+  PC98PlayerMacTests:
+    type: bundle.unit-test
+    platform: macOS
+    sources:
+      - path: TestsSwift
+    dependencies:
+      - target: PC98PlayerMac
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: gmpv3.PC98PlayerMacTests
+        GENERATE_INFOPLIST_FILE: YES
+        SWIFT_OBJC_BRIDGING_HEADER: Bridge/PC98PlayerMac-Bridging-Header.h
+        TEST_HOST: "$(BUILT_PRODUCTS_DIR)/PC98PlayerMac.app/Contents/MacOS/PC98PlayerMac"
+        BUNDLE_LOADER: "$(TEST_HOST)"
+schemes:
+  PC98PlayerMac:
+    build:
+      targets:
+        PC98PlayerMac: all
+        PC98PlayerMacTests: [test]
+    run:
+      config: Debug
+    test:
+      config: Debug
+      targets:
+        - PC98PlayerMacTests
